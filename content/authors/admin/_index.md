@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD
+role: First-year Ph.D.
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -52,14 +52,14 @@ interests:
   - Computer Architecture
 
 education:
-  - area: PhD
-    institution: University of California San Diego
+  - area: Ph.D.
+    institution: University of California San Diego, CSE
     date_start: 2024-09-01
     date_end: 
     summary: |
 
-  - area: BE
-    institution: Shanghai Jiao Tong University
+  - area: B.E. in Computer Science
+    institution: Shanghai Jiao Tong University, ACM Honors Class
     date_start: 2020-09-01
     date_end: 2024-06-30
     summary: |
@@ -159,4 +159,4 @@ work:
 
 ## About Me
 
-Wentao Ni is a first year PhD at STABLE lab in University of California San Diego, advised by Prof. Jishen Zhao. His research interests include machine learning system, high performance computing and computer architecture. He wants to contribute to faster computations and less resources needed in machine learning and other computation tasks.
+Wentao Ni is a first year PhD at STABLE lab in University of California San Diego, advised by [Prof. Jishen Zhao](https://cseweb.ucsd.edu/~jzhao/). His research interests include machine learning system, high performance computing and computer architecture. He wants to contribute to faster computations and less resources needed in machine learning and other computation tasks.

@@ -27,5 +27,5 @@ tags:
   - OptiX
 
 url_pdf: 'https://dl.acm.org/doi/pdf/10.1145/3620665.3640360'
-url_source: 'https://github.com/SubjectNoi/RTANN'
+url_code: 'https://github.com/SubjectNoi/RTANN'
 ---
