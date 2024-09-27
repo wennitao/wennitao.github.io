@@ -65,6 +65,29 @@ education:
     summary: |
       
 work:
+  - position: Research Intern
+    company_name: Microsoft Research Asia
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-09-01
+    date_end: 2023-12-31
+    summary: |
+      Improve LLM Quantization by Searching Configurations
+      - We have previous works studying efficient kernels for sparse matrix computation (PIT and sparTA). So we consider building a search space of quantization configurations, such as quantization method, granularity, number of bits etc. With the help of sparse kernels, hybrid quantization can be perfectly supported.
+  - position: Research Assistant
+    company_name: Duke University
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-09-01
+    date_end: 2023-12-31
+    summary: |
+      Combining Graph & Tensor Transformation with Scheduling via Compilers
+      - State Space Models (SSM) are known for its capability in long range modeling. However, the authors needed to carefully design CUDA kernels for SSMs.
+      - We explore TVM and EinNet to combine graph-level and tensor-level transformation on tensor expressions, along with the scheduling space. We implement it based on TVM te expression.
+
+      Search Efficient Network Architectures for LLM with Linear Complexity
+      - We consider using NAS-based distillation to search architecture computing attention in linear complexity, like RetNet and Hyena Hierarchy.
+      - Previously, we carefully study State Space Models (SSM) and its application in neural networks. We find it efficient in both memory and computation, so we want to find ways to apply it to transformers.
   - position: Research Assistant
     company_name: Shanghai Jiao Tong University
     company_url: ''
@@ -76,35 +99,6 @@ work:
       - We study the inefficiency of the typical IVFPQ pipeline and identify sparsity and spatial similarity in codebook usage.
       - We design a threshold-based selective algorithm to rapidly filter out the unnecessary search points leveraging the sparsity and spatial locality and propose a mapping for our algorithm to run on the RT core.
       - We study how to generalize the existing kNN-RT core mapping to ANN search with arbitrary dimensions, in aspects of approximation method, metrics and system design, and propose JUNO, an end-to-end high-dimensional ANN search engine with both algorithmic enhancement and optimized hardware mapping.
-  - position: Research Assistant
-    company_name: Duke University
-    company_url: ''
-    company_logo: ''
-    date_start: 2022-09-01
-    date_end: 2023-12-31
-    summary: |
-      Combining Graph & Tensor Transformation with Scheduling via Compilers
-      - State Space Models (SSM) are known for its capability in long range modeling. However, the authors needed to carefully design CUDA kernels for SSMs.
-      - We explore TVM and EinNet to combine graph-level and tensor-level transformation on tensor expressions, along with the scheduling space. We implement it based on TVM te expression.
-  - position: Research Assistant
-    company_name: Duke University
-    company_url: ''
-    company_logo: ''
-    date_start: 2022-09-01
-    date_end: 2023-12-31
-    summary: |
-      Search Efficient Network Architectures for LLM with Linear Complexity
-      - We consider using NAS-based distillation to search architecture computing attention in linear complexity, like RetNet and Hyena Hierarchy.
-      - Previously, we carefully study State Space Models (SSM) and its application in neural networks. We find it efficient in both memory and computation, so we want to find ways to apply it to transformers.
-  - position: Research Intern
-    company_name: Microsoft Research Asia
-    company_url: ''
-    company_logo: ''
-    date_start: 2023-09-01
-    date_end: 2023-12-31
-    summary: |
-      Improve LLM Quantization by Searching Configurations
-      - We have previous works studying efficient kernels for sparse matrix computation (PIT and sparTA). So we consider building a search space of quantization configurations, such as quantization method, granularity, number of bits etc. With the help of sparse kernels, hybrid quantization can be perfectly supported.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
