@@ -65,6 +65,16 @@ education:
     summary: |
       
 work:
+  - position: Research Assistant
+    company_name: Shanghai Jiao Tong Unviersity
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-02-01
+    date_end: 2024-06-30
+    summary: |
+      High-performance Code Generation for Vector Quantization
+      - We design and implement an efficient fused VQ kernel generation framework. We introduce a software abstraction called codebook cache to optimize codebook access efficiency and support the integration of VQ with various computations.
+      - Additionally, we provide adaptive heuristics to tailor parameter selection in our optimizations to diverse VQ configurations. Our optimizations achieve an average latency reduction of 46.13% compared to unoptimized versions.
   - position: Research Intern
     company_name: Microsoft Research Asia
     company_url: ''
@@ -73,7 +83,9 @@ work:
     date_end: 2023-12-31
     summary: |
       Improve LLM Quantization by Searching Configurations
-      - We have previous works studying efficient kernels for sparse matrix computation (PIT and sparTA). So we consider building a search space of quantization configurations, such as quantization method, granularity, number of bits etc. With the help of sparse kernels, hybrid quantization can be perfectly supported.
+      - Latest quantization research mainly focuses on improving quantization methods, neglecting the different sensitivity of weights in groups or layers. 
+      - I construct a search space of different granularity, dynamically assigning number of bits to each part of the weights based on profiled sensitivity information, to gain a better performance among the memory and accuracy trade-off. 
+      - With the help of sparse matrix kernels of previous works, hybrid quantization can be perfectly supported.
   - position: Research Assistant
     company_name: Duke University
     company_url: ''
@@ -82,12 +94,11 @@ work:
     date_end: 2023-12-31
     summary: |
       Combining Graph & Tensor Transformation with Scheduling via Compilers
-      - State Space Models (SSM) are known for its capability in long range modeling. However, the authors needed to carefully design CUDA kernels for SSMs.
-      - We explore TVM and EinNet to combine graph-level and tensor-level transformation on tensor expressions, along with the scheduling space. We implement it based on TVM te expression.
+      - Due to the emergence of new forms of computation like State Space Models, researchers need to manually design CUDA kernels for these computations.
+      - I explore TVM and EinNet to combine graph-level and tensor-level transformation on tensor expressions, along with the scheduling space, and implement it based on TVM te expression.
 
       Search Efficient Network Architectures for LLM with Linear Complexity
-      - We consider using NAS-based distillation to search architecture computing attention in linear complexity, like RetNet and Hyena Hierarchy.
-      - Previously, we carefully study State Space Models (SSM) and its application in neural networks. We find it efficient in both memory and computation, so we want to find ways to apply it to transformers.
+      - Linear complexity architectures like State Space Models (SSM) are efficient in memory and computation. I used NAS-based distillation to search linear complexity architecture to substitute attention mechanism in transformers. I proposed a method to measure the complexity of generated architectures.
   - position: Research Assistant
     company_name: Shanghai Jiao Tong University
     company_url: ''
@@ -96,8 +107,7 @@ work:
     date_end: 2023-05-31
     summary: |2-  
       Optimize High-Dimensional ANNS with Ray-Tracing Core
-      - We study the inefficiency of the typical IVFPQ pipeline and identify sparsity and spatial similarity in codebook usage.
-      - We design a threshold-based selective algorithm to rapidly filter out the unnecessary search points leveraging the sparsity and spatial locality and propose a mapping for our algorithm to run on the RT core.
+      - We design a threshold-based selective algorithm to rapidly filter out the unnecessary search points leveraging the sparsity and spatial locality and I propose a mapping for our algorithm to run on the RT core.
       - We study how to generalize the existing kNN-RT core mapping to ANN search with arbitrary dimensions, in aspects of approximation method, metrics and system design, and propose JUNO, an end-to-end high-dimensional ANN search engine with both algorithmic enhancement and optimized hardware mapping.
 
 # Skills
