@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Currently I am interested in machine learning compilers. I want to contribute to more advanced compilers for efficient code generation targeting at machine learning applications on different hardwares. 
+        Currently I am interested in long context inference and RAG systems, with respect to approximate nearest neighbor search and serving systems. 
 
         Please reach out to collaborate 😃
     design:
