@@ -28,6 +28,6 @@ abstract: In this work, we design and implement VQ-LLM, an efficient fused Vecto
 tags: 
   - Vector Quantization
 
-url_pdf: 'https://doi.org/10.48550/arXiv.2503.02236'
-# url_code: 'https://github.com/SubjectNoi/RTANN'
+url_pdf: 'https://arxiv.org/pdf/2503.02236'
+url_code: 'https://github.com/SubjectNoi/VQKernel'
 ---
